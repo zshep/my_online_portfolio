@@ -1,11 +1,25 @@
 /* To do: make css    */
 /* Styles for everything*/
 *{
+    box-sizing: border-box;
     background-color: green;
     font-family: 'Times New Roman', Times, serif;
 
 }
 
+topbanner {
+    padding 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: blue;
+}
+
+
+navbar {
+    display: block;
+    float: right;
+
+
+}
 
 /* To do: insert responsive web design    */
 
