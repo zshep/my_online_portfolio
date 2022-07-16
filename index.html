@@ -6,38 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shep's Portfolio</title>
     <!--To Do: link in stylesheet-->
+    <link rel = "reset" href="./reset.css">
     <link rel = "stylesheet" href="./style.css">
 </head>
 
 <body>
     
-  <!--To Do: create top banner container for intro info-->
+
     <!--My Info: name, pic, about me, my work, contact--> 
   <header class="topbanner">
     <h1>Shep Sheperdigian</h1>
     <nav>
       <li>
             <!--add in  link to go to about me section-->
-      <h2>About me</h2>
+        <a href="#about-me">About Me</a>
       </li>
       <li>
 
            <!-- add in link to go to my work section-->
-      <h3>My Work</h3>
+        <a href="#my-work">My Work</a>
       </li>
       <li>
             <!--add in link to go to my contact-->
-      <h4>Contact Me</h4>
+        <a href="#contact-me">Contact Me</a>
       </li>       
 
     </nav>
   </header>  
   
-    <!--To Do: create container for Work ->a spot of applications -->
+   
+  <section id="about-me" class="aboutMe">
+    <h1> About me</h1>
+    <div id="mepic">
+      
+      <h1>should be a pic here</h1>
 
-  <section class="apps">
+    </div>
+    
+    <div>
+        <h1>Words that talk about me</h1>
+
+    </div>
+
+  </section>
+ <!--To Do: create container for Work ->a spot of applications -->
+  <div id="my-work" class="apps">
             <!--To Do: insert titled images of applications -->
-            <!--To Do: use flexwork to increase size of application when vewied-->
             <!--To Do: when application is clicked -> send to deployed application -->
     <section class="cards">
       <h1>title box 1</h1>
@@ -52,14 +66,7 @@
           <h1> words and such</h1>
         </div>
     </section>
-  
-    <section class="cards">
-      <h1>title box 3</h1>
-        <div>
-          <h1> words and such</h1>
-        </div>
-    </section>
-    
+     
      <section class="cards">
         <h1>title box 3</h1>
           <div>
@@ -86,23 +93,22 @@
       <h1>title box 6</h1>
         <div>
           <h1> words and such</h1>
-      </div>  
-  </section>
+      </div>
+     </section>  
+  </div>
   
   
-  <aside class="navbar">
-    <div>
-      <h1> This is my side container</h1>
-    </div>
 
-    <div>
-      <h1> This is extra text</h1>
-      <h2>This is something else</h2>
-    </div>
-</aside>
 
 
 
     <!--create footer with links to my personal stuff-->
+  <footer id="contact-me" class="contactMe">
+
+    <h1>Words</h1>
+
+
+  </footer>
+
 </body>
 </html>
