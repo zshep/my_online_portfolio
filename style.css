@@ -52,16 +52,29 @@
 .cards {
     display: flex;
     flex-direction: row;
-    border: 5px solid black;
+    border: 5px solid blue;
     width: 33%;
     height: 50%;
+    flex-wrap: wrap;
         
 }
  /* styling for each apps title */
 
  .cards h1 {
     justify-content: center;
-    align-items: center;
+    display: flex;
+    flex-direction:row;
+    background-color: white;
+    text-decoration: solid black;
+    width: 100%;
+ }
+
+ .cards h1 div {
+    flex-direction: row;
+    align-content: center;
+    background-color: green;
+    width: 100%;
+
  }
 
 
@@ -76,8 +89,6 @@
 
 
 /* To do: insert responsive web design    */
-
-
 /*To do: add media query -> change size of applications when viewing */
 
 
