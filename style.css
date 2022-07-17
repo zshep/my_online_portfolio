@@ -8,7 +8,7 @@
 /* Top banner intro styles and such*/
 
 .topbanner {
-    display: flexbox;
+    display: flex;
     justify-content: top;
     padding: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -20,6 +20,8 @@
     display:inline-block;
     background-color: white;
 }
+
+
 /* Top banner box containing: About me, my work, Contact Me */
 .topbanner nav {
     display:flexbox;
@@ -44,7 +46,6 @@
     flex-wrap: wrap;
     border: 3px solid black;
     justify-content: center;
-
     
 }
 
