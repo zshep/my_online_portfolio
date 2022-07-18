@@ -20,10 +20,11 @@ body {
 
 .topbanner {
     display: flex;
-    justify-content: top;
     padding: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: blue;
+    justify-content: space-between;
+    align-items:center;
 }
 
 /* Top Banner: Name*/
@@ -35,16 +36,15 @@ body {
 
 /* Top banner box containing: About me, my work, Contact Me */
 .topbanner nav {
-    display:flex;
-    float: right;
-    background-color: blueviolet;
-    list-style-type: none;
+    display: flex;
+    background-color: whitesmoke;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    height:100%;
 }
 
 .topbanner nav li {
     display: inline-block;
-    align-content: right;
     font-size: 20px;
     border: 2px solid black;
 }
@@ -104,25 +104,31 @@ body {
     background-color: green;
     width: 100%;
     height: 90%;
-    
  }
 
+ /*  stylizing for image of each app   */
  .cards h2 {
     display: flex;
     align-items: center;
     border:none;
-
-
-
  }
 
 
 
 .contactMe {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    flex: wrap;
     border: 5px solid black;
     width: 100%;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactMe nav li {
+    display:inline-block;
+    font-size: 20px;
+
 }
 
 
