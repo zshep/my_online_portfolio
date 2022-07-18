@@ -51,12 +51,18 @@ body {
 
 /*    Stlying for About me section          */
 
-#mepic {
-    align-items: right;
-
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+}
+/* formatting for pic of me */
+.aboutMe img {
+    
+    max-height: 200px;
+    max-width: 200px;
 }
 
-
+ 
 
 
 /*stylizing for class apps, main seciton container */
@@ -136,4 +142,16 @@ body {
 /* To do: insert responsive web design    */
 /*To do: add media query -> change size of applications when viewing */
 
+@media screen and (max-width: 992px) {
+    .cards {
+        width: 50%;
+    }
+}
 
+@media screen and (max-width: 400px) {
+    .cards {
+        width: 100%;
+
+    }
+
+}
