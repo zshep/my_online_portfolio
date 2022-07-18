@@ -1,8 +1,19 @@
 /* To do: make css    */
 /* Styles for everything*/
 *{
+
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    
+
+
 }
 
 /* Top banner intro styles and such*/
@@ -17,14 +28,14 @@
 
 /* Top Banner: Name*/
 .topbanner h1 {
-    display:inline-block;
+    display:flex;
     background-color: white;
 }
 
 
 /* Top banner box containing: About me, my work, Contact Me */
 .topbanner nav {
-    display:flexbox;
+    display:flex;
     float: right;
     background-color: blueviolet;
     list-style-type: none;
@@ -38,14 +49,27 @@
     border: 2px solid black;
 }
 
+/*    Stlying for About me section          */
+
+#mepic {
+    align-items: right;
+
+}
+
+
+
+
 /*stylizing for class apps, main seciton container */
 
 .apps {
     display: flex;
     background-color: darkgreen;
     flex-wrap: wrap;
-    border: 3px solid black;
     justify-content: center;
+    border: 5px solid black;
+    border-radius: 2%;
+    height:40vh;
+
     
 }
 
@@ -53,28 +77,42 @@
 .cards {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     border: 5px solid blue;
     width: 33%;
-    height: 50%;
     flex-wrap: wrap;
+    border-radius: 2%;
         
 }
  /* styling for each apps title */
-
+            /*Styling for title of each app */
  .cards h1 {
-    justify-content: center;
     display: flex;
-    flex-direction:row;
+    justify-content: center;
+    flex-direction: row;
     background-color: white;
-    text-decoration: solid black;
-    width: 100%;
+    margin: 0%;
+    
  }
 
- .cards h1 div {
+
+ /*styling for the container with the content*/
+ .cards div {
+    display: flex;
     flex-direction: row;
-    align-content: center;
+    justify-content: center;
     background-color: green;
     width: 100%;
+    height: 90%;
+    
+ }
+
+ .cards h2 {
+    display: flex;
+    align-items: center;
+    border:none;
+
+
 
  }
 
