@@ -112,14 +112,7 @@ body {
     height: 90%;
  }
 
- /*  stylizing for image of each app   */
- .cards h2 {
-    display: flex;
-    align-items: center;
-    border:none;
- }
-
-
+ 
 
 .contactMe {
     display: flex;
